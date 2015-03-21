@@ -22,7 +22,7 @@ Include conf/vhosts.cnf
 
 ## Using
 The application requires Administrative rights in order to write to %WINDIR%/System32/drivers/etc/hosts file.
-To generate VirtualHosts file and add entries to hosts file just run the app. To remove entries from hosts file add "restore" or "clean" parameter. You can you shortcuts in the package.
+To generate VirtualHosts file and add entries to hosts file just run the app. To remove entries from hosts file add "restore" or "clean" parameter. You can use shortcuts in the package.
 
 ## Customizing
 You can edit included Template.txt file in you want to have custom entries for your Apache VirtualHosts configuration. "{0}" is for server name and "{1}" is path.
