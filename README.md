@@ -11,7 +11,6 @@ home/domain/subdomain - for http://subdomain.domain/ and http://www.subdomain.do
 Finally add these lines to the end of your httpd.conf file:
 
 ```
-DocumentRoot "C:/xampp/home"
 <Directory "C:/xampp/home">
     Options Indexes FollowSymLinks Includes ExecCGI
     AllowOverride All
